@@ -21,6 +21,7 @@ from PySide6.QtCore import Qt, QUrl, QTimer
 from PySide6.QtWebEngineWidgets import QWebEngineView
 from inventree.api import InvenTreeAPI
 
+
 class InterfaceHardPy(QWidget):
     def __init__(self):
         super().__init__()
@@ -158,8 +159,16 @@ class InterfaceHardPy(QWidget):
 
         # Lancement de HardPy avec détection de terminal Linux
         try:
+            # On copie l'environnement actuel
+            env = os.environ.copy()
+            # On supprime les variables qui font crasher le snap gnome-terminal
+            env.pop('LD_LIBRARY_PATH', None)
+            env.pop('GTK_PATH', None)
+
             commande = f'gnome-terminal -- bash -c "hardpy run Harpy; exec bash"'
-            subprocess.Popen(commande, cwd=self.cwd, shell=True)
+            # On passe le nouvel environnement "propre"
+            subprocess.Popen(commande, cwd=self.cwd, shell=True, env=env)
+            
         except Exception as e:
             print(f"Erreur lancement terminal : {e}")
 

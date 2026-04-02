@@ -1,0 +1,249 @@
+{
+  "status": "failed",
+  "stop_time": 1775136246,
+  "start_time": 1775136245,
+  "name": "Harpy",
+  "rev": "localhost_8000",
+  "id": "019d4e5d-8a77-70af-8cd0-978ac94e58a7",
+  "test_stand": {
+    "hw_id": "b09ae3eb3700493b95be03f7b97712a3",
+    "name": null,
+    "revision": null,
+    "timezone": "Etc/UTC",
+    "location": null,
+    "number": null,
+    "drivers": {},
+    "instruments": [],
+    "info": {}
+  },
+  "dut": {
+    "name": null,
+    "type": null,
+    "serial_number": null,
+    "part_number": null,
+    "revision": null,
+    "sub_units": [],
+    "info": {}
+  },
+  "process": {
+    "name": null,
+    "number": null,
+    "info": {}
+  },
+  "modules": {
+    "test_1ALIM": {
+      "status": "failed",
+      "stop_time": 1775136245,
+      "start_time": 1775136245,
+      "name": "Alimentation",
+      "cases": {
+        "test_voltage5V": {
+          "status": "failed",
+          "stop_time": 1775136245,
+          "start_time": 1775136245,
+          "name": "5V",
+          "assertion_msg": "serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 0,
+          "group": "main",
+          "artifact": {}
+        },
+        "test_voltage_minus5V": {
+          "status": "failed",
+          "stop_time": 1775136245,
+          "start_time": 1775136245,
+          "name": "-5V",
+          "assertion_msg": "serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 0,
+          "group": "main",
+          "artifact": {}
+        },
+        "test_voltage12V": {
+          "status": "failed",
+          "stop_time": 1775136245,
+          "start_time": 1775136245,
+          "name": "12V",
+          "assertion_msg": "serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 0,
+          "group": "main",
+          "artifact": {}
+        },
+        "test_voltage_minus12V": {
+          "status": "failed",
+          "stop_time": 1775136245,
+          "start_time": 1775136245,
+          "name": "-12V",
+          "assertion_msg": "serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 0,
+          "group": "main",
+          "artifact": {}
+        }
+      },
+      "group": "main",
+      "artifact": {}
+    },
+    "test_2P5_cc": {
+      "status": "failed",
+      "stop_time": 1775136246,
+      "start_time": 1775136245,
+      "name": "P5 - RF - CC",
+      "cases": {
+        "test_rf_cc1": {
+          "status": "failed",
+          "stop_time": 1775136245,
+          "start_time": 1775136245,
+          "name": "RF [CC1] : 150.9 MHz ",
+          "assertion_msg": "serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 0,
+          "group": "main",
+          "artifact": {}
+        },
+        "test_rf_cc2": {
+          "status": "failed",
+          "stop_time": 1775136245,
+          "start_time": 1775136245,
+          "name": "RF [CC2] : 228 MHz ",
+          "assertion_msg": "serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 0,
+          "group": "main",
+          "artifact": {}
+        },
+        "test_rf_cc3": {
+          "status": "failed",
+          "stop_time": 1775136245,
+          "start_time": 1775136245,
+          "name": "RF [CC3] : 298.7 MHz ",
+          "assertion_msg": "serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 0,
+          "group": "main",
+          "artifact": {}
+        },
+        "test_rf_cc4": {
+          "status": "failed",
+          "stop_time": 1775136246,
+          "start_time": 1775136245,
+          "name": "RF [CC4] : 382.2 MHz ",
+          "assertion_msg": "serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 0,
+          "group": "main",
+          "artifact": {}
+        },
+        "test_rf_cc5": {
+          "status": "failed",
+          "stop_time": 1775136246,
+          "start_time": 1775136246,
+          "name": "RF [CC5] : 444 MHz ",
+          "assertion_msg": "serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 0,
+          "group": "main",
+          "artifact": {}
+        }
+      },
+      "group": "main",
+      "artifact": {}
+    },
+    "test_3P3_ct": {
+      "status": "failed",
+      "stop_time": 1775136246,
+      "start_time": 1775136246,
+      "name": "P3 - RF - CT",
+      "cases": {
+        "test_rf_ct1": {
+          "status": "failed",
+          "stop_time": 1775136246,
+          "start_time": 1775136246,
+          "name": "RF [CT1] : 150.9 MHz ",
+          "assertion_msg": "serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 0,
+          "group": "main",
+          "artifact": {}
+        },
+        "test_rf_ct3": {
+          "status": "failed",
+          "stop_time": 1775136246,
+          "start_time": 1775136246,
+          "name": "RF [CT3] : 270.6 MHz ",
+          "assertion_msg": "serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 0,
+          "group": "main",
+          "artifact": {}
+        }
+      },
+      "group": "main",
+      "artifact": {}
+    },
+    "test_4MODUL": {
+      "status": "failed",
+      "stop_time": 1775136246,
+      "start_time": 1775136246,
+      "name": "MODULATION - Bouton adressable - retard",
+      "cases": {
+        "test_modulation": {
+          "status": "failed",
+          "stop_time": 1775136246,
+          "start_time": 1775136246,
+          "name": "MODULATION [MODH/MODV]",
+          "assertion_msg": "serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 0,
+          "group": "main",
+          "artifact": {}
+        },
+        "test_bouton_adressable": {
+          "status": "failed",
+          "stop_time": 1775136246,
+          "start_time": 1775136246,
+          "name": "Bouton adressable/retard : R\u00e9gler le switch sur 00000000",
+          "assertion_msg": "serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 0,
+          "group": "main",
+          "artifact": {}
+        }
+      },
+      "group": "main",
+      "artifact": {}
+    }
+  },
+  "user": null,
+  "batch_serial_number": null,
+  "caused_dut_failure_id": null,
+  "error_code": null,
+  "artifact": {}
+}
