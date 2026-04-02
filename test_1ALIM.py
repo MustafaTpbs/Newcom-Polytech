@@ -45,6 +45,9 @@ def picode():
             valeur_reelle = device.read_voltage_minus12V()
             return valeur_reelle
         
+    yield PicodeControl()
+    device.close()
+        
 @pytest.mark.case_name("5V")
 def test_voltage5V(fpga, picode, record_property):
     

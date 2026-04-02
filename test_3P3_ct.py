@@ -54,7 +54,7 @@ def test_rf_ct1(fpga, picode, record_property):
     resultat = picode.ok_nok_ct1()
 
     assert resultat == True, "CT1 non fonctionnel"
-    time.sleep(2)
+    time.sleep(1)
 
 # CT2 n'est pas testé 
 
@@ -67,7 +67,7 @@ def test_rf_ct3(fpga, picode, record_property):
     resultat = picode.ok_nok_ct3()
 
     assert resultat == True, "CT3 non fonctionnel"
-    time.sleep(2)
+    time.sleep(1)
 
 #------------------------Fin Test RF----------------------------------------
 

@@ -98,19 +98,22 @@ class PicoDevice:
             return (level_ct3 == 1)
 
     def read_status_modulation(self): #à faire
-        return True
+        return False
     
     def read_retard(self): #impossible
-        return True
+        return False
     
     def read_voltage_5V(self):
-        return True #à faire
+        return False #à faire
+    
     def read_voltage_minus5V(self):
-        return True #à faire
+        return False #à faire
+    
     def read_voltage_12V(self):
-        return True #à faire
+        return False #à faire
+    
     def read_voltage_minus12V(self):
-        return True #à faire
+        return False #à faire
 
     def close(self):
         self.p.close()

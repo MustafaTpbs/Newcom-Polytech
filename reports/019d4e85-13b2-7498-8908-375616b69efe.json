@@ -1,222 +1,10 @@
 {
-  "_id": "localhost_8000",
-  "_rev": "localhost_8000",
-  "modules": {
-    "test_1ALIM": {
-      "status": "failed",
-      "name": "Alimentation",
-      "group": "main",
-      "start_time": 1775138977,
-      "stop_time": 1775138977,
-      "cases": {
-        "test_voltage5V": {
-          "status": "failed",
-          "name": "5V",
-          "group": "main",
-          "start_time": 1775138977,
-          "stop_time": 1775138977,
-          "assertion_msg": "AssertionError: La tension de 5V n'a pas \u00e9t\u00e9 mesur\u00e9\nassert False == True",
-          "msg": null,
-          "attempt": 1,
-          "measurements": [],
-          "chart": null,
-          "dialog_box": {}
-        },
-        "test_voltage_minus5V": {
-          "status": "failed",
-          "name": "-5V",
-          "group": "main",
-          "start_time": 1775138977,
-          "stop_time": 1775138977,
-          "assertion_msg": "AssertionError: La tension de -5V n'a pas \u00e9t\u00e9 mesur\u00e9\nassert False == True",
-          "msg": null,
-          "attempt": 1,
-          "measurements": [],
-          "chart": null,
-          "dialog_box": {}
-        },
-        "test_voltage12V": {
-          "status": "failed",
-          "name": "12V",
-          "group": "main",
-          "start_time": 1775138977,
-          "stop_time": 1775138977,
-          "assertion_msg": "AssertionError: La tension de 12V n'a pas \u00e9t\u00e9 mesur\u00e9\nassert False == True",
-          "msg": null,
-          "attempt": 1,
-          "measurements": [],
-          "chart": null,
-          "dialog_box": {}
-        },
-        "test_voltage_minus12V": {
-          "status": "failed",
-          "name": "-12V",
-          "group": "main",
-          "start_time": 1775138977,
-          "stop_time": 1775138977,
-          "assertion_msg": "AssertionError: La tension de -12V n'a pas \u00e9t\u00e9 mesur\u00e9\nassert False == True",
-          "msg": null,
-          "attempt": 1,
-          "measurements": [],
-          "chart": null,
-          "dialog_box": {}
-        }
-      }
-    },
-    "test_2P5_cc": {
-      "status": "failed",
-      "name": "P5 - RF - CC",
-      "group": "main",
-      "start_time": 1775138977,
-      "stop_time": 1775138979,
-      "cases": {
-        "test_rf_cc1": {
-          "status": "failed",
-          "name": "RF [CC1] : 150.9 MHz ",
-          "group": "main",
-          "start_time": 1775138977,
-          "stop_time": 1775138978,
-          "assertion_msg": "AssertionError: CC1 non fonctionnel\nassert False == True",
-          "msg": null,
-          "attempt": 1,
-          "measurements": [],
-          "chart": null,
-          "dialog_box": {}
-        },
-        "test_rf_cc2": {
-          "status": "passed",
-          "name": "RF [CC2] : 228 MHz ",
-          "group": "main",
-          "start_time": 1775138978,
-          "stop_time": 1775138979,
-          "assertion_msg": null,
-          "msg": null,
-          "attempt": 1,
-          "measurements": [],
-          "chart": null,
-          "dialog_box": {}
-        },
-        "test_rf_cc3": {
-          "status": "failed",
-          "name": "RF [CC3] : 298.7 MHz ",
-          "group": "main",
-          "start_time": 1775138979,
-          "stop_time": 1775138979,
-          "assertion_msg": "AssertionError: CC3 non fonctionnel\nassert False == True",
-          "msg": null,
-          "attempt": 1,
-          "measurements": [],
-          "chart": null,
-          "dialog_box": {}
-        },
-        "test_rf_cc4": {
-          "status": "failed",
-          "name": "RF [CC4] : 382.2 MHz ",
-          "group": "main",
-          "start_time": 1775138979,
-          "stop_time": 1775138979,
-          "assertion_msg": "AssertionError: CC4 non fonctionnel\nassert False == True",
-          "msg": null,
-          "attempt": 1,
-          "measurements": [],
-          "chart": null,
-          "dialog_box": {}
-        },
-        "test_rf_cc5": {
-          "status": "failed",
-          "name": "RF [CC5] : 444 MHz ",
-          "group": "main",
-          "start_time": 1775138979,
-          "stop_time": 1775138979,
-          "assertion_msg": "AssertionError: CC5 non fonctionnel\nassert False == True",
-          "msg": null,
-          "attempt": 1,
-          "measurements": [],
-          "chart": null,
-          "dialog_box": {}
-        }
-      }
-    },
-    "test_3P3_ct": {
-      "status": "failed",
-      "name": "P3 - RF - CT",
-      "group": "main",
-      "start_time": 1775138979,
-      "stop_time": 1775138979,
-      "cases": {
-        "test_rf_ct1": {
-          "status": "failed",
-          "name": "RF [CT1] : 150.9 MHz ",
-          "group": "main",
-          "start_time": 1775138979,
-          "stop_time": 1775138979,
-          "assertion_msg": "AssertionError: CT1 non fonctionnel\nassert False == True",
-          "msg": null,
-          "attempt": 1,
-          "measurements": [],
-          "chart": null,
-          "dialog_box": {}
-        },
-        "test_rf_ct3": {
-          "status": "failed",
-          "name": "RF [CT3] : 270.6 MHz ",
-          "group": "main",
-          "start_time": 1775138979,
-          "stop_time": 1775138979,
-          "assertion_msg": "AssertionError: CT3 non fonctionnel\nassert False == True",
-          "msg": null,
-          "attempt": 1,
-          "measurements": [],
-          "chart": null,
-          "dialog_box": {}
-        }
-      }
-    },
-    "test_4MODUL": {
-      "status": "failed",
-      "name": "MODULATION - Bouton adressable - retard",
-      "group": "main",
-      "start_time": 1775138979,
-      "stop_time": 1775138979,
-      "cases": {
-        "test_modulation": {
-          "status": "failed",
-          "name": "MODULATION [MODH/MODV]",
-          "group": "main",
-          "start_time": 1775138979,
-          "stop_time": 1775138979,
-          "assertion_msg": "AssertionError: La modulation n'est pas pass\u00e9e \u00e0 l'\u00e9tat attendu.\nassert False == True",
-          "msg": null,
-          "attempt": 1,
-          "measurements": [],
-          "chart": null,
-          "dialog_box": {}
-        },
-        "test_bouton_adressable": {
-          "status": "failed",
-          "name": "Bouton adressable/retard : R\u00e9gler le switch sur 00000000",
-          "group": "main",
-          "start_time": 1775138979,
-          "stop_time": 1775138979,
-          "assertion_msg": "AssertionError: Le retard n'a pas \u00e9t\u00e9 d\u00e9tect\u00e9. V\u00e9rifiez l'ID des switchs.\nassert False == True",
-          "msg": null,
-          "attempt": 1,
-          "measurements": [],
-          "chart": null,
-          "dialog_box": {}
-        }
-      }
-    }
-  },
-  "dut": {
-    "type": null,
-    "name": null,
-    "revision": null,
-    "serial_number": null,
-    "part_number": null,
-    "sub_units": [],
-    "info": {}
-  },
+  "status": "failed",
+  "stop_time": 1775138837,
+  "start_time": 1775138835,
+  "name": "Harpy",
+  "rev": "localhost_8000",
+  "id": "019d4e85-13b2-7498-8908-375616b69efe",
   "test_stand": {
     "hw_id": "b09ae3eb3700493b95be03f7b97712a3",
     "name": null,
@@ -224,8 +12,17 @@
     "timezone": "Etc/UTC",
     "location": null,
     "number": null,
-    "instruments": [],
     "drivers": {},
+    "instruments": [],
+    "info": {}
+  },
+  "dut": {
+    "name": null,
+    "type": null,
+    "serial_number": null,
+    "part_number": null,
+    "revision": null,
+    "sub_units": [],
     "info": {}
   },
   "process": {
@@ -233,18 +30,220 @@
     "number": null,
     "info": {}
   },
-  "name": "Harpy",
+  "modules": {
+    "test_1ALIM": {
+      "status": "failed",
+      "stop_time": 1775138836,
+      "start_time": 1775138835,
+      "name": "Alimentation",
+      "cases": {
+        "test_voltage5V": {
+          "status": "failed",
+          "stop_time": 1775138836,
+          "start_time": 1775138835,
+          "name": "5V",
+          "assertion_msg": "AssertionError: La tension de 5V n'a pas \u00e9t\u00e9 mesur\u00e9\nassert False == True",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 1,
+          "group": "main",
+          "artifact": {}
+        },
+        "test_voltage_minus5V": {
+          "status": "failed",
+          "stop_time": 1775138836,
+          "start_time": 1775138836,
+          "name": "-5V",
+          "assertion_msg": "AssertionError: La tension de -5V n'a pas \u00e9t\u00e9 mesur\u00e9\nassert False == True",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 1,
+          "group": "main",
+          "artifact": {}
+        },
+        "test_voltage12V": {
+          "status": "failed",
+          "stop_time": 1775138836,
+          "start_time": 1775138836,
+          "name": "12V",
+          "assertion_msg": "AssertionError: La tension de 12V n'a pas \u00e9t\u00e9 mesur\u00e9\nassert False == True",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 1,
+          "group": "main",
+          "artifact": {}
+        },
+        "test_voltage_minus12V": {
+          "status": "failed",
+          "stop_time": 1775138836,
+          "start_time": 1775138836,
+          "name": "-12V",
+          "assertion_msg": "AssertionError: La tension de -12V n'a pas \u00e9t\u00e9 mesur\u00e9\nassert False == True",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 1,
+          "group": "main",
+          "artifact": {}
+        }
+      },
+      "group": "main",
+      "artifact": {}
+    },
+    "test_2P5_cc": {
+      "status": "failed",
+      "stop_time": 1775138836,
+      "start_time": 1775138836,
+      "name": "P5 - RF - CC",
+      "cases": {
+        "test_rf_cc1": {
+          "status": "failed",
+          "stop_time": 1775138836,
+          "start_time": 1775138836,
+          "name": "RF [CC1] : 150.9 MHz ",
+          "assertion_msg": "AssertionError: CC1 non fonctionnel\nassert False == True",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 1,
+          "group": "main",
+          "artifact": {}
+        },
+        "test_rf_cc2": {
+          "status": "failed",
+          "stop_time": 1775138836,
+          "start_time": 1775138836,
+          "name": "RF [CC2] : 228 MHz ",
+          "assertion_msg": "AssertionError: CC2 non fonctionnel\nassert False == True",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 1,
+          "group": "main",
+          "artifact": {}
+        },
+        "test_rf_cc3": {
+          "status": "failed",
+          "stop_time": 1775138836,
+          "start_time": 1775138836,
+          "name": "RF [CC3] : 298.7 MHz ",
+          "assertion_msg": "AssertionError: CC3 non fonctionnel\nassert False == True",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 1,
+          "group": "main",
+          "artifact": {}
+        },
+        "test_rf_cc4": {
+          "status": "failed",
+          "stop_time": 1775138836,
+          "start_time": 1775138836,
+          "name": "RF [CC4] : 382.2 MHz ",
+          "assertion_msg": "AssertionError: CC4 non fonctionnel\nassert False == True",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 1,
+          "group": "main",
+          "artifact": {}
+        },
+        "test_rf_cc5": {
+          "status": "failed",
+          "stop_time": 1775138836,
+          "start_time": 1775138836,
+          "name": "RF [CC5] : 444 MHz ",
+          "assertion_msg": "AssertionError: CC5 non fonctionnel\nassert False == True",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 1,
+          "group": "main",
+          "artifact": {}
+        }
+      },
+      "group": "main",
+      "artifact": {}
+    },
+    "test_3P3_ct": {
+      "status": "failed",
+      "stop_time": 1775138837,
+      "start_time": 1775138836,
+      "name": "P3 - RF - CT",
+      "cases": {
+        "test_rf_ct1": {
+          "status": "failed",
+          "stop_time": 1775138837,
+          "start_time": 1775138836,
+          "name": "RF [CT1] : 150.9 MHz ",
+          "assertion_msg": "AssertionError: CT1 non fonctionnel\nassert False == True",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 1,
+          "group": "main",
+          "artifact": {}
+        },
+        "test_rf_ct3": {
+          "status": "failed",
+          "stop_time": 1775138837,
+          "start_time": 1775138837,
+          "name": "RF [CT3] : 270.6 MHz ",
+          "assertion_msg": "AssertionError: CT3 non fonctionnel\nassert False == True",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 1,
+          "group": "main",
+          "artifact": {}
+        }
+      },
+      "group": "main",
+      "artifact": {}
+    },
+    "test_4MODUL": {
+      "status": "failed",
+      "stop_time": 1775138837,
+      "start_time": 1775138837,
+      "name": "MODULATION - Bouton adressable - retard",
+      "cases": {
+        "test_modulation": {
+          "status": "failed",
+          "stop_time": 1775138837,
+          "start_time": 1775138837,
+          "name": "MODULATION [MODH/MODV]",
+          "assertion_msg": "AssertionError: La modulation n'est pas pass\u00e9e \u00e0 l'\u00e9tat attendu.\nassert False == True",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 1,
+          "group": "main",
+          "artifact": {}
+        },
+        "test_bouton_adressable": {
+          "status": "failed",
+          "stop_time": 1775138837,
+          "start_time": 1775138837,
+          "name": "Bouton adressable/retard : R\u00e9gler le switch sur 00000000",
+          "assertion_msg": "AssertionError: Le retard n'a pas \u00e9t\u00e9 d\u00e9tect\u00e9. V\u00e9rifiez l'ID des switchs.\nassert False == True",
+          "msg": null,
+          "measurements": [],
+          "chart": null,
+          "attempt": 1,
+          "group": "main",
+          "artifact": {}
+        }
+      },
+      "group": "main",
+      "artifact": {}
+    }
+  },
   "user": null,
   "batch_serial_number": null,
   "caused_dut_failure_id": "test_1ALIM::test_voltage5V",
   "error_code": null,
-  "status": "failed",
-  "start_time": 1775138977,
-  "stop_time": 1775138979,
-  "progress": 100,
-  "operator_msg": {},
-  "alert": "",
-  "operator_data": {
-    "dialog": ""
-  }
+  "artifact": {}
 }
