@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+  (lib (name "newcom.prettu")(type "KiCad")(uri "${KIPRJMOD}/newcom.prettu.pretty")(options "")(descr ""))
+  (lib (name "NEWCOM")(type "KiCad")(uri "${KIPRJMOD}/NEWCOM.pretty")(options "")(descr ""))
+)

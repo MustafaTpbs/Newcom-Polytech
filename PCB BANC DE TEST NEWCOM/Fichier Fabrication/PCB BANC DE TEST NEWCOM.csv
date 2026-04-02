@@ -1,0 +1,18 @@
+Id;Référence;Empreinte;Quantité;Désignation;FARNELL;
+1;R5,R10,R15,R8,R13,R3,R12,R4;R_0805_2012Metric;8;5k;\;
+2;H1,H4,H2,H3;MountingHole_2.7mm_M2.5_DIN965_Pad;4;MountingHole_Pad;\;
+3;R16,R14,R9,R1,R7,R2,R6,R11;R_0805_2012Metric;8;10k;\;
+4;C4,C1;C_1210_3225Metric_Pad1.33x2.70mm_HandSolder;2;10u;1759483;
+5;C2,C3;C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;2;100n;3784278;
+6;-5V,+12V,-12V,+5V;LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder;4;LED;3796308;
+7;R25,R28;R_0805_2012Metric;2;500;\;
+8;R22,R23,R21,R24,R20,R19,R17,R29,R32,R18;R_0805_2012Metric;10;1k;\;
+9;R31,R27;R_0805_2012Metric;2;9k1;\;
+10;J3,J1;IDC-Header_2x08_P2.54mm_Vertical;2;Conn_02x08_Odd_Even;1642020;
+11;PNS;DSUB-25_Pins_Vertical_P2.77x2.84mm_MountingHoles;1;DB25_Pins;1084687;
+12;A1;RaspberryPi_Pico_Common_Unspecified;1;RaspberryPi_Pico;3996081;(déjà acheté)
+13;R26,R30;R_0805_2012Metric;2;3k;\;
+14;C5,C6;C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;2;1u;2991416;
+15;IC1;QFP50P1200X1200X160-64N;1;AD7606BSTZ;4016556;
+16;CARTE NEWCOM NS;DIN41612_B_2x32_Female_Vertical_THT;1;DIN41612_02x32_AB;1096906;
+17;J5;TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal;1;Screw_Terminal_01x08;2008009;

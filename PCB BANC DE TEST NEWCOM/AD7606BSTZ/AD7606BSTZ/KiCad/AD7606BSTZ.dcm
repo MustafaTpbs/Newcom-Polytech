@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD7606BSTZ
+D Bipolar Input, Simultaneous Sampling ADC
+K
+F https://componentsearchengine.com/Datasheets/2/AD7606BSTZ.pdf
+$ENDCMP
+#
+#End Doc Library

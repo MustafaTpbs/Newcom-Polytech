@@ -1,0 +1,7 @@
+### Footprint positions - created on 2026-03-16T08:18:27+0100 ###
+### Printed by KiCad version 9.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                   Package                                                             PosX       PosY       Rot  Side
+J5        Screw_Terminal_01x08  TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal   121.9800   -49.0000  180.0000  bottom
+## End

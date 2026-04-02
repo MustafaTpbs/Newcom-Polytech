@@ -1,0 +1,16 @@
+# Python (fichiers compilés)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnement virtuel 
+venv/
+env/
+myenv/
+
+# Tests et Rapports
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
